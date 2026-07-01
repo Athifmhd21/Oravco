@@ -15,12 +15,7 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   final LoginViewModel viewModel = LoginViewModel();
 
-  @override
-  void dispose() {
-    viewModel.dispose();
-    super.dispose();
-  }
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
