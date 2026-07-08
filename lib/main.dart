@@ -1,7 +1,6 @@
 import 'package:ecommerce/core/features/Loginscreen/login_view.dart';
 import 'package:ecommerce/core/features/Loginscreen/login_viewmodel.dart';
 import 'package:ecommerce/core/features/homescreen/home_viewmodel.dart';
-import 'package:ecommerce/core/features/homescreen/home_view.dart';
 import 'package:ecommerce/core/themepro.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

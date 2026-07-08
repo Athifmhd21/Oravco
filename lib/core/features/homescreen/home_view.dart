@@ -48,9 +48,9 @@ class _HomeScreenState extends State<HomeScreen> {
           : SafeArea(
               child: Column(
                 children: [
-                  const SizedBox(height: 12),
+                  const SizedBox(height: 20),
                   Text(
-                    "Products",
+                    "Product",
                     style: TextStyle(
                       color: Theme.of(context).textTheme.bodyLarge?.color,
                       fontSize: 28,
