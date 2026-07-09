@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   const SizedBox(height: 20),
                   Text(
-                    "Product",
+                    "Products",
                     style: TextStyle(
                       color: Theme.of(context).textTheme.bodyLarge?.color,
                       fontSize: 28,
