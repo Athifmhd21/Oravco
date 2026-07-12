@@ -76,7 +76,7 @@ class ProductDetailsScreen extends StatelessWidget {
                 child: Image.network(product.image, fit: BoxFit.contain),
               ),
 
-              const SizedBox(height: 15),
+              const SizedBox(height: 28),
 
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
