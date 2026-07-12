@@ -31,18 +31,18 @@ class ProductCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white,
           border: Border.all(color: Colors.white, width: 1),
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(14),
         ),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
               height: 110,
-              width: 110,
+              width: 113,
               child: Image.network(image, fit: BoxFit.contain),
             ),
 
-            const SizedBox(width: 16),
+            const SizedBox(width: 19),
 
             Expanded(
               child: Column(
@@ -55,9 +55,9 @@ class ProductCard extends StatelessWidget {
                           title,
                           maxLines: 2,
                           style: const TextStyle(
-                            fontSize: 16,
+                            fontSize: 17,
                             fontWeight: FontWeight.bold,
-                            color: Colors.black,
+                            color: Colors.red,
                           ),
                         ),
                       ),

@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     "Products",
                     style: TextStyle(
                       color: Theme.of(context).textTheme.bodyLarge?.color,
-                      fontSize: 28,
+                      fontSize: 25,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
