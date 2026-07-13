@@ -42,7 +42,7 @@ class ProductCard extends StatelessWidget {
               child: Image.network(image, fit: BoxFit.contain),
             ),
 
-            const SizedBox(width: 19),
+            const SizedBox(width: 20),
 
             Expanded(
               child: Column(
@@ -55,7 +55,7 @@ class ProductCard extends StatelessWidget {
                           title,
                           maxLines: 2,
                           style: const TextStyle(
-                            fontSize: 17,
+                            fontSize: 19,
                             fontWeight: FontWeight.bold,
                             color: Colors.red,
                           ),
