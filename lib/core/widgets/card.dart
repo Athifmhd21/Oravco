@@ -83,8 +83,8 @@ class ProductCard extends StatelessWidget {
 
                   Text(
                     description,
-                    maxLines: 2,
-                    style: const TextStyle(fontSize: 15, color: Colors.black),
+                    maxLines: 3,
+                    style: const TextStyle(fontSize: 18, color: Colors.white),
                   ),
                 ],
               ),
