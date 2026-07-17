@@ -88,24 +88,24 @@ class ProductDetailsScreen extends StatelessWidget {
                       product.title,
                       style: TextStyle(
                         color: Theme.of(context).textTheme.bodyLarge?.color,
-                        fontSize: 22,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
 
-                    const SizedBox(height: 15),
+                    const SizedBox(height: 10),
 
                     // Price
                     Text(
                       "\$${product.price}",
                       style: const TextStyle(
                         color: Colors.green,
-                        fontSize: 24,
+                        fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
 
-                    const SizedBox(height: 15),
+                    const SizedBox(height: 10),
 
                     // Rating
                     Row(
