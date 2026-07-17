@@ -66,8 +66,8 @@ class ProductDetailsScreen extends StatelessWidget {
 
               // Product Image
               Container(
-                height: 250,
-                width: 250,
+                height: 150,
+                width: 150,
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
                   color: Theme.of(context).cardColor,
@@ -76,10 +76,10 @@ class ProductDetailsScreen extends StatelessWidget {
                 child: Image.network(product.image, fit: BoxFit.contain),
               ),
 
-              const SizedBox(height: 28),
+              const SizedBox(height: 20),
 
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
+                padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
