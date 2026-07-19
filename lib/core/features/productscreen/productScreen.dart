@@ -99,7 +99,7 @@ class ProductDetailsScreen extends StatelessWidget {
                     Text(
                       "\$${product.price}",
                       style: const TextStyle(
-                        color: Colors.green,
+                        color: Colors.red,
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
                       ),
